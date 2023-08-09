@@ -1,113 +1,253 @@
 import Image from 'next/image'
+import logo from "../assets/logo.png";
+import googlesvg from "../assets/googlesvg.svg";
+import introimg from "../assets/pexels-hasan-albari-1229861.jpg";
+import horse from "../assets/White-Diamond.svg";
+import image from "../assets/image09.jpg";
+import network from "../assets/network.jpg"
+import "./page.scss";
+
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+      <div className="campus-sphere11111111111111015">
+    <div className="divkt-wrapper">
+      <div className="divcard">
+        <div className="divcard-body">
+          <div className="divheader">
+            <div className="divheader3-inner">
+              <div className="h4fs-1">
+                <div className="campus-sphere1111111111111101">
+                  <div className="logo">CAMPUS SPHERE</div>
+                </div>
+              </div>
+              <div className="divnav3-inner-links">
+              <a href="/" class="home-link">Home</a>
+<a href="/about" class="documents-link">About Us</a>
+<a href="/contact" class="projects-link">Contact Us</a>
+<a href="/register" class="news-link">Sign Up</a>
+
+
+              </div>
+              <div className="abutton">
+              <a href="/login" class="login">Login</a>
+              </div>
+            </div>
+          </div>
+          <div className="divintro3">
+            <div className="divauto-container">
+              <div className="pseudo" />
+              <div className="divintro3-inner">
+                <div className="divintro3-inner-content">
+                  <div className="h1h2d-e95d4e8a">
+                    <b className="h1welcome-to-campus-container">
+                      <span className="h1welcome-to-campus-container1">
+                        <p className="campus-">{`Welcome to`}</p>
+                        <p className="campus-">Campus Sphere -</p>
+                        <p className="campus-">Connect with</p>
+                        <p className="campus-">{`Peers &`}</p>
+                        <p className="campus-">{`Alumni!`}</p>
+                      </span>
+                    </b>
+                  </div>
+                  <div className="lih2d-7733dc12">
+                    <div className="tag-your-friends-container">
+                      <span className="h1welcome-to-campus-container1">
+
+                        <p>              </p>
+                       
+                        <p className="campus-">
+                          Stay connected through social media!
+                        </p>
+                        <p className="campus-">
+                          Make sure to stay updated with
+                        </p>
+                        <p className="campus-">the latest events and news on your campus.</p>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div className="divintro3-inner-image">
+                  <div className="pseudo1" />
+                  <img
+                    className="pexels-photo-1542252jpeg-icon"
+                    alt=""
+                    src={network}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="divfeat3">
+            <div className="divfeat3-inner">
+              <div className="divfeat3-inner-content">
+                <div className="divfeat3-inner-text">
+                  <b className="feature-rich">Feature rich</b>
+                  <div className="h2h2d-6b2e218a">
+                    <b className="campus-sphere-social-container">
+                      <p className="campus-">Campus</p>
+                      <p className="campus-">Sphere: Social</p>
+                      <p className="campus-">Networking for</p>
+                      <p className="campus-">Students</p>
+                    </b>
+                  </div>
+                  <div className="ph2d-2a757cf7">
+                    <div className="campus-spheres-social-container">
+                      <p className="campus-">
+                        Campus Sphere's social media website allows users to
+                        interact
+                      </p>
+                      <p className="campus-">
+                        with their peers, professors, and company
+                        representatives while
+                      </p>
+                      <p className="campus-">
+                        also receiving news and updates concerning events on
+                        campus.
+                      </p>
+                      <p className="campus-">
+                        Through the website, users can also access various
+                        resources
+                      </p>
+                      <p className="campus-">
+                        such as job postings and scholarship opportunities to
+                        help them
+                      </p>
+                      <p className="campus-">succeed in college.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="abutton1">
+                <a href="/register" class="login">Sign Up</a>
+                </div>
+              </div>
+              <div className="divfeat3-inner-list">
+                <b className="quick-easy">{`Quick & easy`}</b>
+                <div className="ulh2d-39c27d9d">
+                  <div className="lih2d-b7ba81fc">
+                    <div className="user-profiles">User Profiles</div>
+                    <div className="ph2d-5476cc2b">
+                      <div className="create-personalized-digital-container">
+                        <span className="h1welcome-to-campus-container1">
+                          <p className="campus-">
+                            Create personalized digital profiles to
+                          </p>
+                          <p className="campus-">
+                            broadcast yourself to your contacts and
+                          </p>
+                          <p className="campus-">make new acquaintances.</p>
+                        </span>
+                      </div>
+                    </div>
+                    <img
+                      className="pseudo-icon"
+                      alt=""
+                      src={horse}
+                    />
+                  </div>
+                  <div className="lih2d-10399b76">
+                    <div className="post-sharing">Post Sharing</div>
+                    <div className="ph2d-acc007f8">
+                      <div className="share-posts-with-container">
+                        <span className="h1welcome-to-campus-container1">
+                          <p className="campus-">
+                            Share posts with your friends, family, and
+                          </p>
+                          <p className="campus-">
+                            followers to build relationships, spread
+                          </p>
+                          <p className="campus-">
+                            ideas, and develop conversations.
+                          </p>
+                        </span>
+                      </div>
+                    </div>
+                    <img
+                      className="pseudo-icon"
+                      alt=""
+                      src={horse}
+                    />
+                  </div>
+                  <div className="lih2d-2fba2aff">
+                    <div className="platforms-diversity">
+                       Events
+                    </div>
+                    <div className="ph2d-5476cc2b">
+                      <div className="variety-of-platforms-container">
+                        <span className="h1welcome-to-campus-container1">
+                          <p className="campus-">
+                            Advertise and Share about
+                          </p>
+                          <p className="campus-">
+                            Events and News on campus and
+                          </p>
+                          <p className="campus-">
+                            capture  audiences.
+                          </p>
+                        </span>
+                      </div>
+                    </div>
+                    <img
+                      className="pseudo-icon"
+                      alt=""
+                      src={horse}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="divjoin3">
+            <div className="divjoin3-inner">
+              <img
+                className="divjoin3-inner-bg-icon"
+                alt=""
+                src={image}
+              />
+              <div className="divjoin3-inner-row">
+                <div className="h2h2d-af327867">
+                  <b className="join-the-waitlist-container">
+                    <span className="h1welcome-to-campus-container1">
+                      <p className="campus-">Join the</p>
+                      <p className="campus-">waitlist to start</p>
+                      <p className="campus-">using our</p>
+                      <p className="campus-">product</p>
+                    </span>
+                  </b>
+                </div>
+                <div className="divjoin3-inner-content">
+                  <div className="ph2d-9e7fe4ac">
+                    <div className="are-you-looking-container">
+                      <span className="h1welcome-to-campus-container1">
+                        <p className="campus-">
+                          Are you looking to get involved on your college
+                          campus?
+                        </p>
+                        <p className="campus-">
+                          Join the Campus Sphere social media waitlist and be
+                          the
+                        </p>
+                        <p className="campus-">
+                          first to know when we launch! #CampusSphere
+                        </p>
+                      </span>
+                    </div>
+                  </div>
+                  <div className="abutton2">
+                    <div className="login">Join the waitlist</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+     
+     
+  
         </div>
       </div>
+    </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+  </div>
   )
 }
